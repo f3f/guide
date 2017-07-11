@@ -1,0 +1,29 @@
+title: Jusfoun - 前端代码规范
+subtitle: "Jsufoun Front-End Coding Guidelines"
+description: "Best Coding Guidelines For Front-End Developer."
+author: 九次方前端部门
+language: zh-cn
+timezone: UTC
+url: https://jusfoun-fe.github.io/guide
+root: /
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+highlight:
+  enable: true
+  line_number: false
+per_page: 0
+
+theme: navy
+deploy:
+  type: git
+  repo: https://github.com/jusfoun-FE/guide.git
+  branch: master
+
+# dicls
+github: jusfoun-FE/guide-hexo
+gh:
+  user: jusfoun-FE
+  repo: guide-hexo
