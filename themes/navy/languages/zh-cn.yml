@@ -48,7 +48,7 @@ sidebar:
     js: JS 规范
     js_language: 语言规范
     js_code: 代码规范
-    project: 项目模板
-    project_all: 全部模板
-    project_pc: pc 端模板
-    project_mobile: 移动端模板
+    project: 解决方案
+    project_all: 全部解决方案
+    project_pc: pc 端解决方案
+    project_mobile: 移动端解决方案
