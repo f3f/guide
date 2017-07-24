@@ -17,7 +17,7 @@ title: PC 端解决方案
 
 ## 快速开发环境
 
-适用场景：**少量页面项目,展示demo,活动页面。**
+适用场景：**少量页面项目,活动页面。**
 特点：快速上手,开发迅速,可直接交付给后端开发。
-不足：没有代码压缩等优化,不支持commonjs等模块化引入你
+不足：没有代码压缩等优化,不支持commonjs等模块化引入
 [github](https://github.com/jusfoun-FE/rapid-development-PC)
