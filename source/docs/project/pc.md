@@ -1,9 +1,9 @@
 title: PC 端解决方案
 ---
 
-## VUE自动化集成开发环境
+## VUE  PC端自动化集成开发环境
 
-适用场景：**前后端分离，用于实现局部切换的pc单页应用**
+适用场景：**前后端分离，用于实现pc单页应用开发环境**
 特点：使用可配置自动化工具, 支持commonjs 图片压缩,资源合并等。
 不足：需要有一定js基础，对vue有一定了解
 [github](https://github.com/jusfoun-FE/spa-development-pc)
