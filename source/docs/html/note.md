@@ -7,7 +7,7 @@ HTML注释规范写法应该遵循以下标准：
 标准写法：
 
 ```html
-<!--Comment Text-->
+<!--Comment Text -->
 ```
 
 错误的写法：
