@@ -36,4 +36,4 @@ title: 前端解决方案
 适用场景：**前后端分离，配合原生进行页面嵌入**
 特点：快速上手,迅速实现一些原生不容易完成的工作。
 不足：样式效果自己实现，不能对代码进行自动化压缩合并
-[github](https://github.com/jusfoun-FE/rapid-development-Mobile)
+[github](https://github.com/jusfoun-FE/rapid-development-Mobile)   
