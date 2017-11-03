@@ -1,5 +1,5 @@
 
-title: 前端解决方案
+title: 前端解决方案2
 ---
 
 ## [VUE 移动端自动化集成开发环境](https://github.com/jusfoun-FE/spa-development)
