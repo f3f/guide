@@ -28,7 +28,7 @@ title: 前端解决方案
 ## [兼容IE8自动化集成开发环境](https://github.com/yangyongguan/automation-development-ie8)
 
 适用场景：**大量开发页面,前后端分离**。
-特点：功能自动化,可配置, 支持commonjs 图片压缩,资源合并等。
+特点：功能自动化,可配置, 提供IE8兼容解决方案，提供常用模板。
 不足：有一定学习曲线，不能快速上手。
 [github](https://github.com/yangyongguan/automation-development-ie8)
 
