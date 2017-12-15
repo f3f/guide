@@ -27,6 +27,10 @@ docs:
   js:
     js_language: js/language.html
     js_code: js/code.html
+  compatibility:
+    compatibility_html: compatibility/html.html
+    compatibility_css: compatibility/css.html
+    compatibility_js: compatibility/js.html
   project:
     project_all: project/all.html
     project_pc: project/pc.html

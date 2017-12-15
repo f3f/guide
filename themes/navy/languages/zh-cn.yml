@@ -48,6 +48,10 @@ sidebar:
     js: JS 规范
     js_language: 语言规范
     js_code: 代码规范
+    compatibility: 浏览器兼容
+    compatibility_css: CSS
+    compatibility_js: JS
+    compatibility_html: Html
     project: 解决方案
     project_all: 全部解决方案
     project_pc: pc 端解决方案

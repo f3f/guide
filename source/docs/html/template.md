@@ -48,6 +48,7 @@ HTML模版指的是团队使用的初始化HTML文件，里面会根据不同平
 <meta name="description" content="your description">
 <meta name="author" content="author,email address">
 <meta name="robots" content="index,follow">
+<!-- 浏览器的渲染模式，建议引入 -->
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 <meta name="renderer" content="ie-stand">
 <title>PC端HTML模版</title>
