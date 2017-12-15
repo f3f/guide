@@ -27,7 +27,7 @@ title: 前端解决方案
 适用场景：**大量开发页面,前后端分离**。
 特点：功能自动化,可配置, 提供IE8兼容解决方案，提供常用模板。
 不足：不能解决所有IE8及以下问题，需要心细。
-[github](https://github.com/jusfoun-FE/automation-development-ie8.git)
+
 
 ## [快速开发环境](https://github.com/jusfoun-FE/rapid-development-PC)
 
