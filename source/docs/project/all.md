@@ -21,6 +21,14 @@ title: 前端解决方案
 特点：功能自动化,可配置, 支持commonjs 图片压缩,资源合并等。
 不足：有一定学习曲线，不能快速上手。
 
+
+## [兼容IE8自动化集成开发环境](https://github.com/jusfoun-FE/automation-development-ie8.git)
+
+适用场景：**大量开发页面,前后端分离**。
+特点：功能自动化,可配置, 提供IE8兼容解决方案，提供常用模板。
+不足：不能解决所有IE8及以下问题，需要心细。
+[github](https://github.com/jusfoun-FE/automation-development-ie8.git)
+
 ## [快速开发环境](https://github.com/jusfoun-FE/rapid-development-PC)
 
 适用场景：**少量页面项目,展示demo,活动页面。**
