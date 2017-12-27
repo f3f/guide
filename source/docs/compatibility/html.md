@@ -6,6 +6,9 @@ title: Html 浏览器兼容处理
 ```
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 ```
+X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设置。
+以上代码IE = edge告诉IE使用最新的引擎渲染网页，chrome = 1则可以激活Chrome Frame .
+
 
 ## 低版本浏览器提示通用代码
 ```
@@ -92,4 +95,31 @@ function setCookie(name, value, seconds) {
     document.cookie = name+"="+escape(value)+expires+"; path=/";   //转码并赋值
 }
 
+```
+
+## IE浏览器hack
+```
+<!--[if IE]>
+这段文字只在IE浏览器显示
+<![endif]-->
+
+只在IE6下生效
+<!--[if IE 6]>
+这段文字只在IE6浏览器显示
+<![endif]-->
+
+只在IE6以上版本生效
+<!--[if gte IE 6]>
+这段文字只在IE6以上(包括)版本IE浏览器显示
+<![endif]-->
+
+只在IE8上不生效
+<!--[if ! IE 8]>
+这段文字在非IE8浏览器显示
+<![endif]-->
+
+非IE浏览器生效
+<!--[if !IE]>
+这段文字只在非IE浏览器显示
+<![endif]-->
 ```
