@@ -1,10 +1,10 @@
-title: Jusfoun - 前端代码规范
-subtitle: "Jsufoun Front-End Coding Guidelines"
+title: F3F - 前端代码规范
+subtitle: "Front-End Coding Guidelines"
 description: "Best Coding Guidelines For Front-End Developer."
-author: 九次方前端部门
+author: F3F.github.io
 language: zh-cn
 timezone: UTC
-url: https://jusfoun-fe.github.io/guide
+url: https://F3F.github.io/guide
 root: /guide
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -19,11 +19,11 @@ per_page: 0
 theme: navy
 deploy:
   type: git
-  repo: git@github.com:jusfoun-FE/guide.git
+  repo: git@github.com:f3f/guide.git
   branch: master
 
 # dicls
-github: jusfoun-FE/guide_hexo
+github: F3F/guide_hexo
 gh:
-  user: jusfoun-FE
+  user: F3F
   repo: guide_hexo

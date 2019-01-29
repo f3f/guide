@@ -54,5 +54,6 @@ sidebar:
     compatibility_html: Html
     project: 解决方案
     project_all: 全部解决方案
+    project_vis: 可视化解决方案
     project_pc: pc 端解决方案
     project_mobile: 移动端解决方案

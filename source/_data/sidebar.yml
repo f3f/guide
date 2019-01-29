@@ -33,5 +33,6 @@ docs:
     compatibility_js: compatibility/js.html
   project:
     project_all: project/all.html
+    project_vis: project/vis.html
     project_pc: project/pc.html
     project_mobile: project/mobile.html

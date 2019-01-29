@@ -108,7 +108,7 @@ hexo.extend.helper.register('url_for_lang', function(path){
 });
 
 hexo.extend.helper.register('raw_link', function(path){
-  return 'https://github.com/jusfoun-FE/guide_hexo/edit/master/source/' + path;
+  return 'https://github.com/f3f/guide_hexo/edit/master/source/' + path;
 });
 
 hexo.extend.helper.register('page_anchor', function(str){
