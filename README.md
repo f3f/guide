@@ -7,7 +7,7 @@ Installation Coding Guidelines For Front-End Developers.
 Install dependencies:
 
 ``` bash
-$ git clone https://github.com/jusfoun-FE/guide.git
+$ git clone https://github.com/f3f/guide.git
 $ cd guide
 $ npm install
 ```

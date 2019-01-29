@@ -1,11 +1,11 @@
 title: 概述
 ---
-欢迎使用`前端代码规范`，使用过程中如碰到问题，请到[Github](https://github.com/jusfoun-FE/guide/issues)进行提问。
+欢迎使用`前端代码规范`，使用过程中如碰到问题，请到[Github](https://github.com/F3F/guide/issues)进行提问。
 
 
 ## 关于
 
-`前端代码规范` 是由 九次方前端部门 整理的，基于 [凹凸实验室](http://aotu.io) 、 [W3C](http://www.w3.org/)、[苹果开发者](https://developer.apple.com/) 等官方文档，并结合团队日常业务需求以及团队在日常开发过程中总结提炼出的经验而制定。
+`前端代码规范` 是由 F3F组织 整理的，基于[凹凸实验室](http://aotu.io) 、 [W3C](http://www.w3.org/)、[苹果开发者](https://developer.apple.com/) 等官方文档，并结合团队日常业务需求以及团队在日常开发过程中总结提炼出的经验而制定。
 
 旨在增强团队开发协作、提高代码质量和打造开发基石的编码规范，
 
