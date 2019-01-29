@@ -19,7 +19,7 @@ per_page: 0
 theme: navy
 deploy:
   type: git
-  repo: https://github.com/f3f/guide.git
+  repo: git@github.com:f3f/guide.git
   branch: master
 
 # dicls
