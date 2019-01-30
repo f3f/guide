@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>Html 浏览器兼容处理 | F3F - 前端代码规范</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://f3f.github.io/docs/compatibility/html.html">
+  <!-- Alternative links -->
+  
+    
+    <link rel="alternative" hreflang="zh-cn" href="https://f3f.github.io/docs/compatibility/html.html">
+    
+    <link rel="alternative" hreflang="en" href="https://f3f.github.io/en/docs/compatibility/html.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/guide/img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/guide/img/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/guide/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/guide/img/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/guide/img/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/guide/img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/guide/img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/guide/img/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/guide/img/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css css/dist.style.css -->
+  <link rel="stylesheet" href="/guide/css/navy.css">
+  <!-- endbuild -->
+  <!-- RSS -->
+  <link rel="alternate" href="/guide/atom.xml" title="F3F - 前端代码规范">
+  <!-- Open Graph -->
+  <meta name="description" content="浏览器的渲染模式浏览器的渲染模式，建议引入：&amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=edge,chrome=1&amp;quot; /&amp;gt; X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Html 浏览器兼容处理">
+<meta property="og:url" content="https://f3f.github.io/docs/compatibility/html.html">
+<meta property="og:site_name" content="F3F - 前端代码规范">
+<meta property="og:description" content="浏览器的渲染模式浏览器的渲染模式，建议引入：&amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=edge,chrome=1&amp;quot; /&amp;gt; X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2019-01-30T03:41:09.565Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Html 浏览器兼容处理">
+<meta name="twitter:description" content="浏览器的渲染模式浏览器的渲染模式，建议引入：&amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=edge,chrome=1&amp;quot; /&amp;gt; X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设">
+  <!-- Swiftype -->
+  <meta class="swiftype" name="title" data-type="string" content="Html 浏览器兼容处理">
+  <!-- Baidu Analytics -->
+  
+
+  <script>
+    var App = {
+        root:'/guide/'
+    };
+  </script>
+</head>
+
+<body>
+<div class="root">
+  <div id="container" class="container">
+    <header id="header" class="wrapper header">
+  <div id="header-inner" class="inner header-inner">
+    <h1 id="logo-wrap" class="logo-wrap">
+      <a href="/guide/index.html" id="logo" class="logo">前端代码规范</a>
+    </h1>
+    <nav id="main-nav" class="main-nav">
+      <ul>
+        <li class="main-nav-item"><a href="/guide/docs/" class="main-nav-link">文档</a></li>
+        <li class="main-nav-item">
+          <a href="https://github.com/F3F/guide" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="lang-select-wrap" class="lang-select-wrap">
+      <label id="lang-select-label" class="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/compatibility/html.html" class="lang-select">
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+          <option value="en">English</option>
+        
+      </select>
+    </div>
+    <div id="search-btn-wrap" class="main-nav-item search-btn-wrap">
+      <a id="search-btn" class="main-nav-link st-search-launcher search-btn"><i class="fa fa-search"></i></a>
+    </div>
+    <a id="mobile-nav-toggle" class="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+    <a id="mobile-search-btn" class="st-search-launcher mobile-search-btn"></a>
+  </div>
+</header>
+
+    <div id="content-wrap" class="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner" class="content-inner">
+      <article class="article-container" itemscope="" itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">Html 浏览器兼容处理</h1>
+                <a href="https://github.com/f3f/guide_hexo/edit/master/source/docs/compatibility/html.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
+                <h2 id="浏览器的渲染模式" class="article-heading"><a href="#浏览器的渲染模式" class="headerlink" title="浏览器的渲染模式"></a>浏览器的渲染模式<a class="article-anchor" href="#浏览器的渲染模式" aria-hidden="true"></a></h2><p>浏览器的渲染模式，建议引入：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;</span><br></pre></td></tr></table></figure></p>
+<p>X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设置。<br>以上代码IE = edge告诉IE使用最新的引擎渲染网页，chrome = 1则可以激活Chrome Frame .</p>
+<h2 id="低版本浏览器提示通用代码" class="article-heading"><a href="#低版本浏览器提示通用代码" class="headerlink" title="低版本浏览器提示通用代码"></a>低版本浏览器提示通用代码<a class="article-anchor" href="#低版本浏览器提示通用代码" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$(function() &#123;</span><br><span class="line"></span><br><span class="line">    //判断浏览器是否是IE9以下</span><br><span class="line">    var ua = (navigator.appName == &quot;Microsoft Internet Explorer&quot; &amp;&amp; navigator.appVersion.split(&quot;;&quot;)[1].replace(/[ ]/g, &quot;&quot;) == &quot;MSIE6.0&quot; ||</span><br><span class="line">    navigator.appName == &quot;Microsoft Internet Explorer&quot; &amp;&amp; navigator.appVersion.split(&quot;;&quot;)[1].replace(/[ ]/g, &quot;&quot;) == &quot;MSIE7.0&quot; ||</span><br><span class="line">    navigator.appName == &quot;Microsoft Internet Explorer&quot; &amp;&amp; navigator.appVersion.split(&quot;;&quot;)[1].replace(/[ ]/g, &quot;&quot;) == &quot;MSIE8.0&quot;);</span><br><span class="line"></span><br><span class="line">    var html = &apos;&lt;div class=&quot;ieTips&quot;&gt;&apos; +</span><br><span class="line">        &apos;&lt;div class=&quot;fl&quot;&gt;&apos; +</span><br><span class="line">            &apos;&lt;span class=&quot;fl prompt-txt&quot;&gt; 你的浏览器版本过低，可能导致网站不能正常访问！为了你能正常使用网站功能，请使用这些浏览器：&lt;/span&gt;&apos; +</span><br><span class="line">            &apos;&lt;ul class=&quot;fl ieTips-icon-lists&quot;&gt;&apos; +</span><br><span class="line">                &apos;&lt;li&gt;&apos; +</span><br><span class="line">                    &apos;&lt;a href=&quot;http://sw.bos.baidu.com/sw-search-sp/software/bf7b887437715/IE10-Windows6.1-zh-cn.exe&quot;&gt;&apos; +</span><br><span class="line">                        &apos;&lt;i class=&quot;ieTips-icon ieTips-iconfont ieTips-icon-ie&quot;&gt;&lt;/i&gt; &lt;span class=&quot;name&quot;&gt;IE10及以上浏览器&lt;/span&gt; &lt;/a&gt;&apos; +</span><br><span class="line">                &apos;&lt;/li&gt;&apos; +</span><br><span class="line">                &apos;&lt;li&gt;&apos; +</span><br><span class="line">                    &apos;&lt;a href=&quot;http://sw.bos.baidu.com/sw-search-sp/software/9c6abe90486d4/Firefox_49.0.2.6136_setup.exe&quot;&gt;&apos; +</span><br><span class="line">                        &apos;&lt;i class=&quot;ieTips-icon ieTips-iconfont ieTips-icon-huohu&quot;&gt;&lt;/i&gt; &lt;span class=&quot;name&quot;&gt;火狐浏览器&lt;/span&gt; &lt;/a&gt;&apos; +</span><br><span class="line">                &apos;&lt;/li&gt;&apos; +</span><br><span class="line">                &apos;&lt;li&gt;&apos; +</span><br><span class="line">                    &apos;&lt;a href=&quot;http://sw.bos.baidu.com/sw-search-sp/software/66c03028c72ca/ChromeStandalone_54.0.2840.87_Setup.exe&quot;&gt;&apos; +</span><br><span class="line">                        &apos;&lt;i class=&quot;ieTips-icon ieTips-iconfont ieTips-icon-guge&quot;&gt;&lt;/i&gt;&lt;span class=&quot;name&quot;&gt;谷歌浏览器&lt;/span&gt; &lt;/a&gt;&apos; +</span><br><span class="line">                &apos;&lt;/li&gt;&apos; +</span><br><span class="line">            &apos;&lt;/ul&gt;&apos; +</span><br><span class="line">        &apos;&lt;/div&gt;&apos; +</span><br><span class="line">            &apos;&lt;div class=&quot;fr prompt-btn&quot;&gt;&apos; +</span><br><span class="line">                &apos;&lt;button type=&quot;button&quot; class=&quot;iet-btn no_prompt&quot;&gt;不再提示&lt;/button&gt; &apos; +</span><br><span class="line">                //&apos;&lt;button type=&quot;button&quot; class=&quot;iet-btn close_prompt&quot;&gt;关闭提示&lt;/button&gt; &apos; +</span><br><span class="line">            &apos;&lt;/div&gt;&apos; +</span><br><span class="line">        &apos;&lt;/div&gt;&apos;;</span><br><span class="line"></span><br><span class="line">    if(getCookie(&apos;test&apos;)==false)&#123;</span><br><span class="line">        //$(&quot;.ieTips&quot;).hide();</span><br><span class="line">        if (ua)&#123;</span><br><span class="line">            //$(&quot;.ieTips&quot;).show();</span><br><span class="line">            $(&quot;body&quot;).append(html);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    $(&quot;.no_prompt&quot;).click(function()&#123;</span><br><span class="line">        setCookie(&quot;test&quot;,&quot;tank&quot;,3600); //cookie失效时间 3600秒=1小时</span><br><span class="line">        $(this).parents(&quot;.ieTips&quot;).slideUp();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    $(&quot;.close_prompt&quot;).on(&quot;click&quot;, function () &#123;</span><br><span class="line">        $(this).parents(&quot;.ieTips&quot;).slideUp();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">//取得cookie</span><br><span class="line">function getCookie(name) &#123;</span><br><span class="line">    var nameEQ = name + &quot;=&quot;;</span><br><span class="line">    var ca = document.cookie.split(&apos;;&apos;);    //把cookie分割成组</span><br><span class="line">    for(var i=0;i &lt; ca.length;i++) &#123;</span><br><span class="line">        var c = ca[i];                      //取得字符串</span><br><span class="line">        while (c.charAt(0)==&apos; &apos;) &#123;          //判断一下字符串有没有前导空格</span><br><span class="line">            c = c.substring(1,c.length);      //有的话，从第二位开始取</span><br><span class="line">        &#125;</span><br><span class="line">        if (c.indexOf(nameEQ) == 0) &#123;       //如果含有我们要的name</span><br><span class="line">            return unescape(c.substring(nameEQ.length,c.length));    //解码并截取我们要值</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return false;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//清除cookie</span><br><span class="line">function clearCookie(name) &#123;</span><br><span class="line">    setCookie(name, &quot;&quot;, -1);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//设置cookie</span><br><span class="line">function setCookie(name, value, seconds) &#123;</span><br><span class="line">    seconds = seconds || 0;   //seconds有值就直接赋值，没有为0。</span><br><span class="line">    var expires = &quot;&quot;;</span><br><span class="line">    if (seconds != 0 ) &#123;      //设置cookie生存时间</span><br><span class="line">        var date = new Date();</span><br><span class="line">        date.setTime(date.getTime()+(seconds*1000));</span><br><span class="line">        expires = &quot;; expires=&quot;+date.toGMTString();</span><br><span class="line">    &#125;</span><br><span class="line">    document.cookie = name+&quot;=&quot;+escape(value)+expires+&quot;; path=/&quot;;   //转码并赋值</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="IE浏览器hack" class="article-heading"><a href="#IE浏览器hack" class="headerlink" title="IE浏览器hack"></a>IE浏览器hack<a class="article-anchor" href="#IE浏览器hack" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--[if IE]&gt;</span><br><span class="line">这段文字只在IE浏览器显示</span><br><span class="line">&lt;![endif]--&gt;</span><br><span class="line"></span><br><span class="line">只在IE6下生效</span><br><span class="line">&lt;!--[if IE 6]&gt;</span><br><span class="line">这段文字只在IE6浏览器显示</span><br><span class="line">&lt;![endif]--&gt;</span><br><span class="line"></span><br><span class="line">只在IE6以上版本生效</span><br><span class="line">&lt;!--[if gte IE 6]&gt;</span><br><span class="line">这段文字只在IE6以上(包括)版本IE浏览器显示</span><br><span class="line">&lt;![endif]--&gt;</span><br><span class="line"></span><br><span class="line">只在IE8上不生效</span><br><span class="line">&lt;!--[if ! IE 8]&gt;</span><br><span class="line">这段文字在非IE8浏览器显示</span><br><span class="line">&lt;![endif]--&gt;</span><br><span class="line"></span><br><span class="line">非IE浏览器生效</span><br><span class="line">&lt;!--[if !IE]&gt;</span><br><span class="line">这段文字只在非IE浏览器显示</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-01-30T03:41:09.565Z" itemprop="dateModified">上次更新：2019-01-30</time>
+                <a href="/guide/docs/js/code.html" class="article-footer-prev" title="代码规范"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="/guide/docs/compatibility/css.html" class="article-footer-next" title="CSS"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+
+
+
+            </div>
+          </div>
+          <aside class="article-toc" id="article-toc" role="navigation">
+            <div id="article-toc-inner" class="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ul class="nav toc-nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#浏览器的渲染模式"><span class="nav-text">浏览器的渲染模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#低版本浏览器提示通用代码"><span class="nav-text">低版本浏览器提示通用代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IE浏览器hack"><span class="nav-text">IE浏览器hack</span></a></li></ul>
+              <a href="#" id="article-toc-top" class="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation" class="sidebar">
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="/guide/docs/index.html" class="sidebar-link">概述</a><a href="/guide/docs/common.html" class="sidebar-link">通用</a><strong class="sidebar-title">HTML 规范</strong><a href="/guide/docs/html/code.html" class="sidebar-link">代码规范</a><a href="/guide/docs/html/note.html" class="sidebar-link">注释规范</a><a href="/guide/docs/html/template.html" class="sidebar-link">文件模版</a><a href="/guide/docs/html/webapp.html" class="sidebar-link">WebApp Meta</a><strong class="sidebar-title">图片规范</strong><a href="/guide/docs/image/format.html" class="sidebar-link">图片格式</a><a href="/guide/docs/image/size.html" class="sidebar-link">图片大小</a><a href="/guide/docs/image/quality.html" class="sidebar-link">图片质量</a><a href="/guide/docs/image/import.html" class="sidebar-link">图片引入</a><strong class="sidebar-title">CSS 规范</strong><a href="/guide/docs/css/code.html" class="sidebar-link">代码规范</a><a href="/guide/docs/css/note.html" class="sidebar-link">注释规范</a><a href="/guide/docs/css/sass.html" class="sidebar-link">SASS 规范</a><a href="/guide/docs/css/reset.html" class="sidebar-link">重置样式</a><a href="/guide/docs/css/query.html" class="sidebar-link">媒体查询</a><a href="/guide/docs/css/webkit.html" class="sidebar-link">移动端常用私有属性</a><strong class="sidebar-title">命名规范</strong><a href="/guide/docs/name/dir.html" class="sidebar-link">目录命名</a><a href="/guide/docs/name/image.html" class="sidebar-link">图片命名</a><a href="/guide/docs/name/htmlcss.html" class="sidebar-link">HTML/CSS 命名</a><a href="/guide/docs/name/classname.html" class="sidebar-link">ClassName 命名</a><strong class="sidebar-title">JS 规范</strong><a href="/guide/docs/js/language.html" class="sidebar-link">语言规范</a><a href="/guide/docs/js/code.html" class="sidebar-link">代码规范</a><strong class="sidebar-title">浏览器兼容</strong><a href="/guide/docs/compatibility/html.html" class="sidebar-link current">Html</a><a href="/guide/docs/compatibility/css.html" class="sidebar-link">CSS</a><a href="/guide/docs/compatibility/js.html" class="sidebar-link">JS</a><strong class="sidebar-title">解决方案</strong><a href="/guide/docs/project/all.html" class="sidebar-link">全部解决方案</a><a href="/guide/docs/project/vis.html" class="sidebar-link">可视化解决方案</a><a href="/guide/docs/project/pc.html" class="sidebar-link">pc 端解决方案</a><a href="/guide/docs/project/mobile.html" class="sidebar-link">移动端解决方案</a></div>
+</aside>
+
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2019 <a href="https://F3F.github.io/guide/" target="_blank">F3F.github.io</a><br>
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/F3F/guide" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer" class="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav" class="mobile-nav">
+  <div id="mobile-nav-inner" class="mobile-nav-inner">
+    <ul id="mobile-nav-list" class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="/guide/docs/" class="mobile-nav-link">文档</a></li>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/F3F/guide" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="/guide/docs/index.html" class="mobile-nav-link">概述</a><a href="/guide/docs/common.html" class="mobile-nav-link">通用</a><strong class="mobile-nav-title">HTML 规范</strong><a href="/guide/docs/html/code.html" class="mobile-nav-link">代码规范</a><a href="/guide/docs/html/note.html" class="mobile-nav-link">注释规范</a><a href="/guide/docs/html/template.html" class="mobile-nav-link">文件模版</a><a href="/guide/docs/html/webapp.html" class="mobile-nav-link">WebApp Meta</a><strong class="mobile-nav-title">图片规范</strong><a href="/guide/docs/image/format.html" class="mobile-nav-link">图片格式</a><a href="/guide/docs/image/size.html" class="mobile-nav-link">图片大小</a><a href="/guide/docs/image/quality.html" class="mobile-nav-link">图片质量</a><a href="/guide/docs/image/import.html" class="mobile-nav-link">图片引入</a><strong class="mobile-nav-title">CSS 规范</strong><a href="/guide/docs/css/code.html" class="mobile-nav-link">代码规范</a><a href="/guide/docs/css/note.html" class="mobile-nav-link">注释规范</a><a href="/guide/docs/css/sass.html" class="mobile-nav-link">SASS 规范</a><a href="/guide/docs/css/reset.html" class="mobile-nav-link">重置样式</a><a href="/guide/docs/css/query.html" class="mobile-nav-link">媒体查询</a><a href="/guide/docs/css/webkit.html" class="mobile-nav-link">移动端常用私有属性</a><strong class="mobile-nav-title">命名规范</strong><a href="/guide/docs/name/dir.html" class="mobile-nav-link">目录命名</a><a href="/guide/docs/name/image.html" class="mobile-nav-link">图片命名</a><a href="/guide/docs/name/htmlcss.html" class="mobile-nav-link">HTML/CSS 命名</a><a href="/guide/docs/name/classname.html" class="mobile-nav-link">ClassName 命名</a><strong class="mobile-nav-title">JS 规范</strong><a href="/guide/docs/js/language.html" class="mobile-nav-link">语言规范</a><a href="/guide/docs/js/code.html" class="mobile-nav-link">代码规范</a><strong class="mobile-nav-title">浏览器兼容</strong><a href="/guide/docs/compatibility/html.html" class="mobile-nav-link current">Html</a><a href="/guide/docs/compatibility/css.html" class="mobile-nav-link">CSS</a><a href="/guide/docs/compatibility/js.html" class="mobile-nav-link">JS</a><strong class="mobile-nav-title">解决方案</strong><a href="/guide/docs/project/all.html" class="mobile-nav-link">全部解决方案</a><a href="/guide/docs/project/vis.html" class="mobile-nav-link">可视化解决方案</a><a href="/guide/docs/project/pc.html" class="mobile-nav-link">pc 端解决方案</a><a href="/guide/docs/project/mobile.html" class="mobile-nav-link">移动端解决方案</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap" class="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label" class="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/compatibility/html.html" class="mobile-lang-select">
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+        <option value="en">English</option>
+      
+    </select>
+  </div>
+</nav>
+
+  <!-- Scripts -->
+<!-- build:js js/dist.main.js -->
+<script src="/guide/js/jquery.js"></script>
+<script src="/guide/js/hammer.js"></script>
+<script src="/guide/assets/bootstrap/js/bootstrap.js"></script>
+<script src="/guide/js/lang_select.js"></script>
+<script src="/guide/js/toc.js"></script>
+<script src="/guide/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','');
+</script>
+
+</div>
+</body>
+</html>

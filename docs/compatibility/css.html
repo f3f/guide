@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>CSS 浏览器兼容处理 | F3F - 前端代码规范</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://f3f.github.io/docs/compatibility/css.html">
+  <!-- Alternative links -->
+  
+    
+    <link rel="alternative" hreflang="zh-cn" href="https://f3f.github.io/docs/compatibility/css.html">
+    
+    <link rel="alternative" hreflang="en" href="https://f3f.github.io/en/docs/compatibility/css.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/guide/img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/guide/img/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/guide/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/guide/img/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/guide/img/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/guide/img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/guide/img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/guide/img/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/guide/img/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css css/dist.style.css -->
+  <link rel="stylesheet" href="/guide/css/navy.css">
+  <!-- endbuild -->
+  <!-- RSS -->
+  <link rel="alternate" href="/guide/atom.xml" title="F3F - 前端代码规范">
+  <!-- Open Graph -->
+  <meta name="description" content="IE浏览器hack“-″减号是IE6专有的hack“\9″ IE6/IE7/IE8/IE9/IE10都生效“\0″ IE8/IE9/IE10都生效，是IE8/9/10的hack“\9\0″ 只对IE9/IE10生效，是IE9/10的hack.hack&amp;#123;/*demo1 注意顺序，否则IE6/7下可能无法正确显示，导致结果显示为白色背景*/    background-color:red;">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CSS 浏览器兼容处理">
+<meta property="og:url" content="https://f3f.github.io/docs/compatibility/css.html">
+<meta property="og:site_name" content="F3F - 前端代码规范">
+<meta property="og:description" content="IE浏览器hack“-″减号是IE6专有的hack“\9″ IE6/IE7/IE8/IE9/IE10都生效“\0″ IE8/IE9/IE10都生效，是IE8/9/10的hack“\9\0″ 只对IE9/IE10生效，是IE9/10的hack.hack&amp;#123;/*demo1 注意顺序，否则IE6/7下可能无法正确显示，导致结果显示为白色背景*/    background-color:red;">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2019-01-30T03:41:09.565Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CSS 浏览器兼容处理">
+<meta name="twitter:description" content="IE浏览器hack“-″减号是IE6专有的hack“\9″ IE6/IE7/IE8/IE9/IE10都生效“\0″ IE8/IE9/IE10都生效，是IE8/9/10的hack“\9\0″ 只对IE9/IE10生效，是IE9/10的hack.hack&amp;#123;/*demo1 注意顺序，否则IE6/7下可能无法正确显示，导致结果显示为白色背景*/    background-color:red;">
+  <!-- Swiftype -->
+  <meta class="swiftype" name="title" data-type="string" content="CSS 浏览器兼容处理">
+  <!-- Baidu Analytics -->
+  
+
+  <script>
+    var App = {
+        root:'/guide/'
+    };
+  </script>
+</head>
+
+<body>
+<div class="root">
+  <div id="container" class="container">
+    <header id="header" class="wrapper header">
+  <div id="header-inner" class="inner header-inner">
+    <h1 id="logo-wrap" class="logo-wrap">
+      <a href="/guide/index.html" id="logo" class="logo">前端代码规范</a>
+    </h1>
+    <nav id="main-nav" class="main-nav">
+      <ul>
+        <li class="main-nav-item"><a href="/guide/docs/" class="main-nav-link">文档</a></li>
+        <li class="main-nav-item">
+          <a href="https://github.com/F3F/guide" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="lang-select-wrap" class="lang-select-wrap">
+      <label id="lang-select-label" class="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/compatibility/css.html" class="lang-select">
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+          <option value="en">English</option>
+        
+      </select>
+    </div>
+    <div id="search-btn-wrap" class="main-nav-item search-btn-wrap">
+      <a id="search-btn" class="main-nav-link st-search-launcher search-btn"><i class="fa fa-search"></i></a>
+    </div>
+    <a id="mobile-nav-toggle" class="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+    <a id="mobile-search-btn" class="st-search-launcher mobile-search-btn"></a>
+  </div>
+</header>
+
+    <div id="content-wrap" class="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner" class="content-inner">
+      <article class="article-container" itemscope="" itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">CSS 浏览器兼容处理</h1>
+                <a href="https://github.com/f3f/guide_hexo/edit/master/source/docs/compatibility/css.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
+                <h2 id="IE浏览器hack" class="article-heading"><a href="#IE浏览器hack" class="headerlink" title="IE浏览器hack"></a>IE浏览器hack<a class="article-anchor" href="#IE浏览器hack" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">“-″减号是IE6专有的hack</span><br><span class="line">“\9″ IE6/IE7/IE8/IE9/IE10都生效</span><br><span class="line">“\0″ IE8/IE9/IE10都生效，是IE8/9/10的hack</span><br><span class="line">“\9\0″ 只对IE9/IE10生效，是IE9/10的hack</span><br><span class="line">.hack&#123;</span><br><span class="line">/*demo1 注意顺序，否则IE6/7下可能无法正确显示，导致结果显示为白色背景*/</span><br><span class="line">    background-color:red; /* All browsers */</span><br><span class="line">    background-color:blue !important;/* All browsers but IE6 */</span><br><span class="line">    *background-color:black; /* IE6, IE7 */</span><br><span class="line">    +background-color:yellow;/* IE6, IE7*/</span><br><span class="line">    background-color:gray\9; /* IE6, IE7, IE8, IE9, IE10 */</span><br><span class="line">    background-color:purple\0; /* IE8, IE9, IE10 */</span><br><span class="line">    background-color:orange\9\0;/*IE9, IE10*/</span><br><span class="line">    _background-color:green; /* Only works in IE6 */</span><br><span class="line">    *+background-color:pink; /*  WARNING: Only works in IE7 ? Is it right? */</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Html5" class="article-heading"><a href="#Html5" class="headerlink" title="Html5"></a>Html5<a class="article-anchor" href="#Html5" aria-hidden="true"></a></h2><p>低版本浏览器兼容 Html5 新标签，引入：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--[if lt IE 9]&gt;</span><br><span class="line">  &lt;script src=&quot;//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure></p>
+<p>用于解决IE9以下版本浏览器对HTML5新增标签不识别，并导致CSS不起作用的问题。<br>原理：利用脚本document.createElement(“”)创建对应的脚本，CSS选择器便可正确应用到该标签。<br><br>注：此插件会对页面性能造成影响，所以如果项目开始阶段已经确定兼容IE9以下，就不建议使用html5新标签。</p>
+<h2 id="Media-Query" class="article-heading"><a href="#Media-Query" class="headerlink" title="Media Query"></a>Media Query<a class="article-anchor" href="#Media-Query" aria-hidden="true"></a></h2><p>低版本浏览器无法识别 Media Query，引入：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--[if lt IE 9]&gt;</span><br><span class="line">  &lt;script src=&quot;//cdn.bootcss.com/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure></p>
+<p>Respond.js让不支持css3 Media Query的浏览器包括IE6-IE8等其他浏览器支持查询。<br><br>注：引入respond.min.js，但要在css的后面（越早引入越好，在ie下面看到页面闪屏的概率就越低，因为最初css会先渲染出来，如果respond.js加载得很后面，这时重新根据media query解析出来的css会再改变一次页面的布局等，所以看起来有闪屏的现象）</p>
+<h2 id="CSS3-选择器" class="article-heading"><a href="#CSS3-选择器" class="headerlink" title="CSS3 选择器"></a>CSS3 选择器<a class="article-anchor" href="#CSS3-选择器" aria-hidden="true"></a></h2><p>IE8 不支持 CSS3 选择器，可引入 selectivizr-min.js 解决 selectivizr-min.js<br>需要其它 js 库进行支持，不同 js 库对其支持程度不同，推荐使用 nwmatcher.js；<br>两者结合可满足 CSS3 绝大多数选择器：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--[if lt IE 9]&gt;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot; src=&quot;Lib/nwmatcher.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">  &lt;script type=&quot;text/javascript&quot; src=&quot;Lib/selectivizr-min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure></p>
+<p>注：此插件会对页面性能造成影响，非必要情况下不建议使用。</p>
+<h2 id="nth-child-even" class="article-heading"><a href="#nth-child-even" class="headerlink" title="nth-child(even)"></a>nth-child(even)<a class="article-anchor" href="#nth-child-even" aria-hidden="true"></a></h2><p>table 的隔行变色 用 nth-child(even)不兼容，可引入：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--[if lt IE 9]&gt;</span><br><span class="line">  &lt;script src=&quot;//cdn.bootcss.com/selectivizr/1.0.2/selectivizr-min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="IE6-IE7下overflow：hidden无效" class="article-heading"><a href="#IE6-IE7下overflow：hidden无效" class="headerlink" title="IE6,IE7下overflow：hidden无效"></a>IE6,IE7下overflow：hidden无效<a class="article-anchor" href="#IE6-IE7下overflow：hidden无效" aria-hidden="true"></a></h2><p>解决办法：position:relative; 或者 position:relative; / for IE6,IE7 */ 即可解决该bug。<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">position</span>: <span class="selector-tag">relative</span>;</span><br><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>;</span><br></pre></td></tr></table></figure></p>
+<h2 id="背景渐变linear-gradient" class="article-heading"><a href="#背景渐变linear-gradient" class="headerlink" title="背景渐变linear-gradient"></a>背景渐变linear-gradient<a class="article-anchor" href="#背景渐变linear-gradient" aria-hidden="true"></a></h2><p>CSS 属性颜色渐变 linear-gradient，低版本浏览器不兼容，可使用 hack 技术添加一纯色背景<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">background-color</span>: <span class="selector-id">#f5840c</span>;</span><br><span class="line"><span class="selector-tag">background</span>: <span class="selector-tag">linear-gradient</span>(<span class="selector-tag">top</span>, <span class="selector-id">#f5840c</span> 0%,<span class="selector-id">#f584cc</span> 100%);</span><br></pre></td></tr></table></figure></p>
+<h2 id="水平布局" class="article-heading"><a href="#水平布局" class="headerlink" title="水平布局"></a>水平布局<a class="article-anchor" href="#水平布局" aria-hidden="true"></a></h2><p>inline-block下padding元素重叠，使用float: left替代display: inline-block实现水平布局；</p>
+<h2 id="line-height" class="article-heading"><a href="#line-height" class="headerlink" title="line-height"></a>line-height<a class="article-anchor" href="#line-height" aria-hidden="true"></a></h2><p>行内样式垂直居中问题，有时 line-height 和高度相等在 ie8 无效果，使用:<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">height</span>: 50<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">line-height</span>: 50<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">vertical-align</span>: <span class="selector-tag">middle</span>;</span><br></pre></td></tr></table></figure></p>
+<h2 id="button左右两边留白" class="article-heading"><a href="#button左右两边留白" class="headerlink" title="button左右两边留白"></a>button左右两边留白<a class="article-anchor" href="#button左右两边留白" aria-hidden="true"></a></h2><p>ie8 下 button 按钮左右两边留白的问题，用 :<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">visible</span>;</span><br><span class="line"><span class="selector-tag">padding</span>: 0;</span><br></pre></td></tr></table></figure></p>
+<h2 id="z-index" class="article-heading"><a href="#z-index" class="headerlink" title="z-index"></a>z-index<a class="article-anchor" href="#z-index" aria-hidden="true"></a></h2><p>低版本浏览器 z-index 失效，给元素都添加:<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">position</span><span class="selector-pseudo">:relative</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="background-size" class="article-heading"><a href="#background-size" class="headerlink" title="background-size"></a>background-size<a class="article-anchor" href="#background-size" aria-hidden="true"></a></h2><p>让 ie7\ie8 支持 CSS3 background-size，引入 backgroundsize.min.htc，例子：<br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">   <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">   <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">   <span class="attribute">background</span>: <span class="built_in">url</span>(images/126.jpg) center no-repeat;</span><br><span class="line">   <span class="attribute">background-size</span>: cover;</span><br><span class="line">   <span class="attribute">-ms-behavior</span>: <span class="built_in">url</span>(backgroundsize.min.htc)\<span class="number">9</span>;</span><br><span class="line">   <span class="attribute">behavior</span>: <span class="built_in">url</span>(backgroundsize.min.htc)\<span class="number">9</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="透明度兼容性：" class="article-heading"><a href="#透明度兼容性：" class="headerlink" title="透明度兼容性："></a>透明度兼容性：<a class="article-anchor" href="#透明度兼容性：" aria-hidden="true"></a></h2><p>a、使用rgba背景色做透明的：<br><br>背景色变成：background: #000; <br><br>再加IE9及以下的透明度设置方法<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">background: #000;</span><br><span class="line">opacity=80;</span><br><span class="line">-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);</span><br><span class="line">filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);</span><br></pre></td></tr></table></figure></p>
+<p>b、直接使用opacity设置透明度的:<br><br>添加IE9及以下的透明度设置方法<br><figure class="highlight"><table><tr><td class="code"><pre><span class="line">opacity=80</span><br><span class="line">-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);</span><br><span class="line">filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);</span><br></pre></td></tr></table></figure></p>
+<p>关于opacity引起里面文字透明，可以使用定位解决</p>
+<h2 id="css伪类问题：" class="article-heading"><a href="#css伪类问题：" class="headerlink" title="css伪类问题："></a>css伪类问题：<a class="article-anchor" href="#css伪类问题：" aria-hidden="true"></a></h2><p>将用伪类实现的效果换成其他实现方式；<br><br>主要是针对IE7内核，如果不用兼容IE7内核，则不用处理此类问题。</p>
+<h2 id="伪类last-child" class="article-heading"><a href="#伪类last-child" class="headerlink" title="伪类last-child"></a>伪类last-child<a class="article-anchor" href="#伪类last-child" aria-hidden="true"></a></h2><p>first-child是CSS2的内容，但是last-child就不是了，所以IE8不买账。<br><br>推荐的做法不是使用last-child，而是给最后一个元素设置一个.last的class，然后对此进行样式设置，这样就全部兼容了。</p>
+<h2 id="filter-blur" class="article-heading"><a href="#filter-blur" class="headerlink" title="filter blur"></a>filter blur<a class="article-anchor" href="#filter-blur" aria-hidden="true"></a></h2><p>CSS3中提供支持滤镜效果的属性filter，比如支持高斯模糊效果：<br><br><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">filter</span>: <span class="selector-tag">blur</span>(10<span class="selector-tag">px</span>);</span><br><span class="line"><span class="selector-tag">-webkit-filter</span>: <span class="selector-tag">blur</span>(10<span class="selector-tag">px</span>);</span><br><span class="line"><span class="selector-tag">-moz-filter</span>: <span class="selector-tag">blur</span>(10<span class="selector-tag">px</span>);</span><br></pre></td></tr></table></figure></p>
+<p>IE8对filter: blur(10px)的显示效果是对HTML元素进行小范围的模糊处理，这个效果并不是高斯模糊<br><br>要想支持高斯模糊，需要如下设置：<br><br><figure class="highlight"><table><tr><td class="code"><pre><span class="line">filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');</span><br></pre></td></tr></table></figure></p>
+<p>在实践中发现一个坑就是，所有position: relative的元素都不会生效。<br><br>其他的发现是，IE9对filter: blur(10px)无效，<br><br>而对filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=’10’),是针对元素小范围的模糊效果。</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-01-30T03:41:09.565Z" itemprop="dateModified">上次更新：2019-01-30</time>
+                <a href="/guide/docs/compatibility/html.html" class="article-footer-prev" title="Html"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="/guide/docs/compatibility/js.html" class="article-footer-next" title="JS"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+
+
+
+            </div>
+          </div>
+          <aside class="article-toc" id="article-toc" role="navigation">
+            <div id="article-toc-inner" class="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ul class="nav toc-nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#IE浏览器hack"><span class="nav-text">IE浏览器hack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Html5"><span class="nav-text">Html5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Media-Query"><span class="nav-text">Media Query</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CSS3-选择器"><span class="nav-text">CSS3 选择器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nth-child-even"><span class="nav-text">nth-child(even)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IE6-IE7下overflow：hidden无效"><span class="nav-text">IE6,IE7下overflow：hidden无效</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#背景渐变linear-gradient"><span class="nav-text">背景渐变linear-gradient</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#水平布局"><span class="nav-text">水平布局</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#line-height"><span class="nav-text">line-height</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#button左右两边留白"><span class="nav-text">button左右两边留白</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#z-index"><span class="nav-text">z-index</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#background-size"><span class="nav-text">background-size</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#透明度兼容性："><span class="nav-text">透明度兼容性：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#css伪类问题："><span class="nav-text">css伪类问题：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#伪类last-child"><span class="nav-text">伪类last-child</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#filter-blur"><span class="nav-text">filter blur</span></a></li></ul>
+              <a href="#" id="article-toc-top" class="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation" class="sidebar">
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="/guide/docs/index.html" class="sidebar-link">概述</a><a href="/guide/docs/common.html" class="sidebar-link">通用</a><strong class="sidebar-title">HTML 规范</strong><a href="/guide/docs/html/code.html" class="sidebar-link">代码规范</a><a href="/guide/docs/html/note.html" class="sidebar-link">注释规范</a><a href="/guide/docs/html/template.html" class="sidebar-link">文件模版</a><a href="/guide/docs/html/webapp.html" class="sidebar-link">WebApp Meta</a><strong class="sidebar-title">图片规范</strong><a href="/guide/docs/image/format.html" class="sidebar-link">图片格式</a><a href="/guide/docs/image/size.html" class="sidebar-link">图片大小</a><a href="/guide/docs/image/quality.html" class="sidebar-link">图片质量</a><a href="/guide/docs/image/import.html" class="sidebar-link">图片引入</a><strong class="sidebar-title">CSS 规范</strong><a href="/guide/docs/css/code.html" class="sidebar-link">代码规范</a><a href="/guide/docs/css/note.html" class="sidebar-link">注释规范</a><a href="/guide/docs/css/sass.html" class="sidebar-link">SASS 规范</a><a href="/guide/docs/css/reset.html" class="sidebar-link">重置样式</a><a href="/guide/docs/css/query.html" class="sidebar-link">媒体查询</a><a href="/guide/docs/css/webkit.html" class="sidebar-link">移动端常用私有属性</a><strong class="sidebar-title">命名规范</strong><a href="/guide/docs/name/dir.html" class="sidebar-link">目录命名</a><a href="/guide/docs/name/image.html" class="sidebar-link">图片命名</a><a href="/guide/docs/name/htmlcss.html" class="sidebar-link current">HTML/CSS 命名</a><a href="/guide/docs/name/classname.html" class="sidebar-link">ClassName 命名</a><strong class="sidebar-title">JS 规范</strong><a href="/guide/docs/js/language.html" class="sidebar-link">语言规范</a><a href="/guide/docs/js/code.html" class="sidebar-link">代码规范</a><strong class="sidebar-title">浏览器兼容</strong><a href="/guide/docs/compatibility/html.html" class="sidebar-link">Html</a><a href="/guide/docs/compatibility/css.html" class="sidebar-link current">CSS</a><a href="/guide/docs/compatibility/js.html" class="sidebar-link">JS</a><strong class="sidebar-title">解决方案</strong><a href="/guide/docs/project/all.html" class="sidebar-link">全部解决方案</a><a href="/guide/docs/project/vis.html" class="sidebar-link">可视化解决方案</a><a href="/guide/docs/project/pc.html" class="sidebar-link">pc 端解决方案</a><a href="/guide/docs/project/mobile.html" class="sidebar-link">移动端解决方案</a></div>
+</aside>
+
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2019 <a href="https://F3F.github.io/guide/" target="_blank">F3F.github.io</a><br>
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/F3F/guide" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer" class="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav" class="mobile-nav">
+  <div id="mobile-nav-inner" class="mobile-nav-inner">
+    <ul id="mobile-nav-list" class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="/guide/docs/" class="mobile-nav-link">文档</a></li>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/F3F/guide" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="/guide/docs/index.html" class="mobile-nav-link">概述</a><a href="/guide/docs/common.html" class="mobile-nav-link">通用</a><strong class="mobile-nav-title">HTML 规范</strong><a href="/guide/docs/html/code.html" class="mobile-nav-link">代码规范</a><a href="/guide/docs/html/note.html" class="mobile-nav-link">注释规范</a><a href="/guide/docs/html/template.html" class="mobile-nav-link">文件模版</a><a href="/guide/docs/html/webapp.html" class="mobile-nav-link">WebApp Meta</a><strong class="mobile-nav-title">图片规范</strong><a href="/guide/docs/image/format.html" class="mobile-nav-link">图片格式</a><a href="/guide/docs/image/size.html" class="mobile-nav-link">图片大小</a><a href="/guide/docs/image/quality.html" class="mobile-nav-link">图片质量</a><a href="/guide/docs/image/import.html" class="mobile-nav-link">图片引入</a><strong class="mobile-nav-title">CSS 规范</strong><a href="/guide/docs/css/code.html" class="mobile-nav-link">代码规范</a><a href="/guide/docs/css/note.html" class="mobile-nav-link">注释规范</a><a href="/guide/docs/css/sass.html" class="mobile-nav-link">SASS 规范</a><a href="/guide/docs/css/reset.html" class="mobile-nav-link">重置样式</a><a href="/guide/docs/css/query.html" class="mobile-nav-link">媒体查询</a><a href="/guide/docs/css/webkit.html" class="mobile-nav-link">移动端常用私有属性</a><strong class="mobile-nav-title">命名规范</strong><a href="/guide/docs/name/dir.html" class="mobile-nav-link">目录命名</a><a href="/guide/docs/name/image.html" class="mobile-nav-link">图片命名</a><a href="/guide/docs/name/htmlcss.html" class="mobile-nav-link current">HTML/CSS 命名</a><a href="/guide/docs/name/classname.html" class="mobile-nav-link">ClassName 命名</a><strong class="mobile-nav-title">JS 规范</strong><a href="/guide/docs/js/language.html" class="mobile-nav-link">语言规范</a><a href="/guide/docs/js/code.html" class="mobile-nav-link">代码规范</a><strong class="mobile-nav-title">浏览器兼容</strong><a href="/guide/docs/compatibility/html.html" class="mobile-nav-link">Html</a><a href="/guide/docs/compatibility/css.html" class="mobile-nav-link current">CSS</a><a href="/guide/docs/compatibility/js.html" class="mobile-nav-link">JS</a><strong class="mobile-nav-title">解决方案</strong><a href="/guide/docs/project/all.html" class="mobile-nav-link">全部解决方案</a><a href="/guide/docs/project/vis.html" class="mobile-nav-link">可视化解决方案</a><a href="/guide/docs/project/pc.html" class="mobile-nav-link">pc 端解决方案</a><a href="/guide/docs/project/mobile.html" class="mobile-nav-link">移动端解决方案</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap" class="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label" class="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/compatibility/css.html" class="mobile-lang-select">
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+        <option value="en">English</option>
+      
+    </select>
+  </div>
+</nav>
+
+  <!-- Scripts -->
+<!-- build:js js/dist.main.js -->
+<script src="/guide/js/jquery.js"></script>
+<script src="/guide/js/hammer.js"></script>
+<script src="/guide/assets/bootstrap/js/bootstrap.js"></script>
+<script src="/guide/js/lang_select.js"></script>
+<script src="/guide/js/toc.js"></script>
+<script src="/guide/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','');
+</script>
+
+</div>
+</body>
+</html>

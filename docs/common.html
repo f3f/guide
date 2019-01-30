@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>一般规范 | F3F - 前端代码规范</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://f3f.github.io/docs/common.html">
+  <!-- Alternative links -->
+  
+    
+    <link rel="alternative" hreflang="zh-cn" href="https://f3f.github.io/docs/common.html">
+    
+    <link rel="alternative" hreflang="en" href="https://f3f.github.io/en/docs/common.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/guide/img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/guide/img/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/guide/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/guide/img/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/guide/img/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/guide/img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/guide/img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/guide/img/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/guide/img/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/guide/img/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css css/dist.style.css -->
+  <link rel="stylesheet" href="/guide/css/navy.css">
+  <!-- endbuild -->
+  <!-- RSS -->
+  <link rel="alternate" href="/guide/atom.xml" title="F3F - 前端代码规范">
+  <!-- Open Graph -->
+  <meta name="description" content="文件/资源命名在 web 项目中，所有的文件名应该都遵循同一命名约定。以可读性而言，减号（-）是用来分隔文件名的不二之选。同时它也是常见的 URL 分隔符（i.e. //example.com/blog/my-blog-entry or  //s.example.com/images/big-black-background.jpg），所以理所当然的，减号应该也是用来分隔资源名称的好选择。 请确保">
+<meta property="og:type" content="website">
+<meta property="og:title" content="一般规范">
+<meta property="og:url" content="https://f3f.github.io/docs/common.html">
+<meta property="og:site_name" content="F3F - 前端代码规范">
+<meta property="og:description" content="文件/资源命名在 web 项目中，所有的文件名应该都遵循同一命名约定。以可读性而言，减号（-）是用来分隔文件名的不二之选。同时它也是常见的 URL 分隔符（i.e. //example.com/blog/my-blog-entry or  //s.example.com/images/big-black-background.jpg），所以理所当然的，减号应该也是用来分隔资源名称的好选择。 请确保">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2019-01-30T03:41:09.565Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="一般规范">
+<meta name="twitter:description" content="文件/资源命名在 web 项目中，所有的文件名应该都遵循同一命名约定。以可读性而言，减号（-）是用来分隔文件名的不二之选。同时它也是常见的 URL 分隔符（i.e. //example.com/blog/my-blog-entry or  //s.example.com/images/big-black-background.jpg），所以理所当然的，减号应该也是用来分隔资源名称的好选择。 请确保">
+  <!-- Swiftype -->
+  <meta class="swiftype" name="title" data-type="string" content="一般规范">
+  <!-- Baidu Analytics -->
+  
+
+  <script>
+    var App = {
+        root:'/guide/'
+    };
+  </script>
+</head>
+
+<body>
+<div class="root">
+  <div id="container" class="container">
+    <header id="header" class="wrapper header">
+  <div id="header-inner" class="inner header-inner">
+    <h1 id="logo-wrap" class="logo-wrap">
+      <a href="/guide/index.html" id="logo" class="logo">前端代码规范</a>
+    </h1>
+    <nav id="main-nav" class="main-nav">
+      <ul>
+        <li class="main-nav-item"><a href="/guide/docs/" class="main-nav-link">文档</a></li>
+        <li class="main-nav-item">
+          <a href="https://github.com/F3F/guide" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="lang-select-wrap" class="lang-select-wrap">
+      <label id="lang-select-label" class="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="docs/common.html" class="lang-select">
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+          <option value="en">English</option>
+        
+      </select>
+    </div>
+    <div id="search-btn-wrap" class="main-nav-item search-btn-wrap">
+      <a id="search-btn" class="main-nav-link st-search-launcher search-btn"><i class="fa fa-search"></i></a>
+    </div>
+    <a id="mobile-nav-toggle" class="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+    <a id="mobile-search-btn" class="st-search-launcher mobile-search-btn"></a>
+  </div>
+</header>
+
+    <div id="content-wrap" class="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner" class="content-inner">
+      <article class="article-container" itemscope="" itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">一般规范</h1>
+                <a href="https://github.com/f3f/guide_hexo/edit/master/source/docs/common.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
+                <h2 id="文件-资源命名" class="article-heading"><a href="#文件-资源命名" class="headerlink" title="文件/资源命名"></a>文件/资源命名<a class="article-anchor" href="#文件-资源命名" aria-hidden="true"></a></h2><p>在 web 项目中，所有的文件名应该都遵循同一命名约定。以可读性而言，减号（-）是用来分隔文件名的不二之选。同时它也是常见的 URL 分隔符（i.e. //example.com/blog/my-blog-entry or  //s.example.com/images/big-black-background.jpg），所以理所当然的，减号应该也是用来分隔资源名称的好选择。</p>
+<p>请确保文件命名总是以字母开头而不是数字。而以特殊字符开头命名的文件，一般都有特殊的含义与用处（比如eslint的配置文件 <code>.eslintrc.json</code> ）。</p>
+<p>资源的字母名称必须全为小写，这是因为在某些对大小写字母敏感的操作系统中，当文件通过工具压缩混淆后，或者人为修改过后，大小写不同而导致引用文件不同的错误，很难被发现。</p>
+<p>还有一些情况下，需要对文件增加前后缀或特定的扩展名（比如 .min.js, .min.css），抑或一串前缀（比如 3fa89b.main.min.css）。这种情况下，建议使用点分隔符来区分这些在文件名中带有清晰意义的元数据。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">// 不推荐</span><br><span class="line">MyScript.js</span><br><span class="line">myCamelCaseName.css</span><br><span class="line">i_love_underscores.html</span><br><span class="line">1001-scripts.js</span><br><span class="line">my-file-min.css</span><br><span class="line"></span><br><span class="line">// 推荐</span><br><span class="line">my-script.js</span><br><span class="line">my-camel-case-name.css</span><br><span class="line">i-love-underscores.html</span><br><span class="line">thousand-and-one-scripts.js</span><br><span class="line">my-file.min.css</span><br></pre></td></tr></table></figure>
+<h2 id="协议" class="article-heading"><a href="#协议" class="headerlink" title="协议"></a>协议<a class="article-anchor" href="#协议" aria-hidden="true"></a></h2><blockquote>
+<p>不要指定引入资源所带的具体协议。</p>
+</blockquote>
+<p>当引入图片或其他媒体文件，还有样式和脚本时，URLs 所指向的具体路径，不要指定协议部分（http:, https:），除非这两者协议都不可用。</p>
+<p>不指定协议使得 URL 从绝对的获取路径转变为相对的，在请求资源协议无法确定时非常好用，而且还能为文件大小节省几个字节。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">// 不推荐</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://cdn.com/foundation.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">// 推荐</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.com/foundation.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">// 不推荐</span><br><span class="line"><span class="selector-class">.example</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">url</span>(http://static.example.com/images/bg.jpg);</span><br><span class="line">&#125;</span><br><span class="line">// 推荐</span><br><span class="line"><span class="selector-class">.example</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">url</span>(//static.example.com/images/bg.jpg);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="文本缩进" class="article-heading"><a href="#文本缩进" class="headerlink" title="文本缩进"></a>文本缩进<a class="article-anchor" href="#文本缩进" aria-hidden="true"></a></h2><p>一次缩进两个空格<br><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>Fantastic<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>Great<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>Test<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">@<span class="keyword">media</span> screen and (min-width: <span class="number">1100px</span>) &#123;</span><br><span class="line">  <span class="selector-tag">body</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">100%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">y</span>(<span class="params">a, b</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">      result: (a + b) * x</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;());</span><br></pre></td></tr></table></figure>
+<h2 id="注释" class="article-heading"><a href="#注释" class="headerlink" title="注释"></a>注释<a class="article-anchor" href="#注释" aria-hidden="true"></a></h2><p>注释是你自己与你的小伙伴们了解代码写法和目的的唯一途径。特别是在写一些看似琐碎的无关紧要的代码时，由于记忆点不深刻，注释就变得尤为重要了。</p>
+<p>当你写注释时一定要注意：不要写你的代码都干了些什么，而要写你的代码为什么要这么写，背后的考量是什么。当然也可以加入所思考问题或是解决方案的链接地址。</p>
+<p>新创建的文件需要添加注释文件头</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Created by 公司部门-姓名&lt;xx@xxxx.com&gt; on yyyy/MM/dd.</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
+<p>更多注释标准请参考<a href="http://www.css88.com/doc/jsdoc/" target="_blank" rel="noopener">jsdoc3语法</a></p>
+<h2 id="编辑器配置" class="article-heading"><a href="#编辑器配置" class="headerlink" title="编辑器配置"></a>编辑器配置<a class="article-anchor" href="#编辑器配置" aria-hidden="true"></a></h2><p>将你的编辑器按照下面的配置进行设置，以避免常见的代码不一致和差异：</p>
+<ul>
+<li>用两个空格代替制表符（soft-tab 即用空格代表 tab 符）。</li>
+<li>保存文件时，删除尾部的空白符。</li>
+<li>设置文件编码为 UTF-8。</li>
+<li>在文件结尾添加一个空白行。</li>
+</ul>
+<p>参照文档并将这些配置信息添加到项目的 <code>.editorconfig</code> 文件中。例如：<a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig" target="_blank" rel="noopener">Bootstrap 中的 .editorconfig 实例</a>。更多信息请参考 <a href="http://editorconfig.org" target="_blank" rel="noopener">about EditorConfig</a>。</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-01-30T03:41:09.565Z" itemprop="dateModified">上次更新：2019-01-30</time>
+                <a href="/guide/docs/index.html" class="article-footer-prev" title="概述"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="/guide/docs/html/code.html" class="article-footer-next" title="代码规范"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+
+
+
+            </div>
+          </div>
+          <aside class="article-toc" id="article-toc" role="navigation">
+            <div id="article-toc-inner" class="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ul class="nav toc-nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#文件-资源命名"><span class="nav-text">文件/资源命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#协议"><span class="nav-text">协议</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本缩进"><span class="nav-text">文本缩进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注释"><span class="nav-text">注释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编辑器配置"><span class="nav-text">编辑器配置</span></a></li></ul>
+              <a href="#" id="article-toc-top" class="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation" class="sidebar">
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="/guide/docs/index.html" class="sidebar-link">概述</a><a href="/guide/docs/common.html" class="sidebar-link current">通用</a><strong class="sidebar-title">HTML 规范</strong><a href="/guide/docs/html/code.html" class="sidebar-link">代码规范</a><a href="/guide/docs/html/note.html" class="sidebar-link">注释规范</a><a href="/guide/docs/html/template.html" class="sidebar-link">文件模版</a><a href="/guide/docs/html/webapp.html" class="sidebar-link">WebApp Meta</a><strong class="sidebar-title">图片规范</strong><a href="/guide/docs/image/format.html" class="sidebar-link">图片格式</a><a href="/guide/docs/image/size.html" class="sidebar-link">图片大小</a><a href="/guide/docs/image/quality.html" class="sidebar-link">图片质量</a><a href="/guide/docs/image/import.html" class="sidebar-link">图片引入</a><strong class="sidebar-title">CSS 规范</strong><a href="/guide/docs/css/code.html" class="sidebar-link">代码规范</a><a href="/guide/docs/css/note.html" class="sidebar-link">注释规范</a><a href="/guide/docs/css/sass.html" class="sidebar-link">SASS 规范</a><a href="/guide/docs/css/reset.html" class="sidebar-link">重置样式</a><a href="/guide/docs/css/query.html" class="sidebar-link">媒体查询</a><a href="/guide/docs/css/webkit.html" class="sidebar-link">移动端常用私有属性</a><strong class="sidebar-title">命名规范</strong><a href="/guide/docs/name/dir.html" class="sidebar-link">目录命名</a><a href="/guide/docs/name/image.html" class="sidebar-link">图片命名</a><a href="/guide/docs/name/htmlcss.html" class="sidebar-link">HTML/CSS 命名</a><a href="/guide/docs/name/classname.html" class="sidebar-link">ClassName 命名</a><strong class="sidebar-title">JS 规范</strong><a href="/guide/docs/js/language.html" class="sidebar-link">语言规范</a><a href="/guide/docs/js/code.html" class="sidebar-link">代码规范</a><strong class="sidebar-title">浏览器兼容</strong><a href="/guide/docs/compatibility/html.html" class="sidebar-link">Html</a><a href="/guide/docs/compatibility/css.html" class="sidebar-link">CSS</a><a href="/guide/docs/compatibility/js.html" class="sidebar-link">JS</a><strong class="sidebar-title">解决方案</strong><a href="/guide/docs/project/all.html" class="sidebar-link">全部解决方案</a><a href="/guide/docs/project/vis.html" class="sidebar-link">可视化解决方案</a><a href="/guide/docs/project/pc.html" class="sidebar-link">pc 端解决方案</a><a href="/guide/docs/project/mobile.html" class="sidebar-link">移动端解决方案</a></div>
+</aside>
+
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2019 <a href="https://F3F.github.io/guide/" target="_blank">F3F.github.io</a><br>
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/F3F/guide" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer" class="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav" class="mobile-nav">
+  <div id="mobile-nav-inner" class="mobile-nav-inner">
+    <ul id="mobile-nav-list" class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="/guide/docs/" class="mobile-nav-link">文档</a></li>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/F3F/guide" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="/guide/docs/index.html" class="mobile-nav-link">概述</a><a href="/guide/docs/common.html" class="mobile-nav-link current">通用</a><strong class="mobile-nav-title">HTML 规范</strong><a href="/guide/docs/html/code.html" class="mobile-nav-link">代码规范</a><a href="/guide/docs/html/note.html" class="mobile-nav-link">注释规范</a><a href="/guide/docs/html/template.html" class="mobile-nav-link">文件模版</a><a href="/guide/docs/html/webapp.html" class="mobile-nav-link">WebApp Meta</a><strong class="mobile-nav-title">图片规范</strong><a href="/guide/docs/image/format.html" class="mobile-nav-link">图片格式</a><a href="/guide/docs/image/size.html" class="mobile-nav-link">图片大小</a><a href="/guide/docs/image/quality.html" class="mobile-nav-link">图片质量</a><a href="/guide/docs/image/import.html" class="mobile-nav-link">图片引入</a><strong class="mobile-nav-title">CSS 规范</strong><a href="/guide/docs/css/code.html" class="mobile-nav-link">代码规范</a><a href="/guide/docs/css/note.html" class="mobile-nav-link">注释规范</a><a href="/guide/docs/css/sass.html" class="mobile-nav-link">SASS 规范</a><a href="/guide/docs/css/reset.html" class="mobile-nav-link">重置样式</a><a href="/guide/docs/css/query.html" class="mobile-nav-link">媒体查询</a><a href="/guide/docs/css/webkit.html" class="mobile-nav-link">移动端常用私有属性</a><strong class="mobile-nav-title">命名规范</strong><a href="/guide/docs/name/dir.html" class="mobile-nav-link">目录命名</a><a href="/guide/docs/name/image.html" class="mobile-nav-link">图片命名</a><a href="/guide/docs/name/htmlcss.html" class="mobile-nav-link">HTML/CSS 命名</a><a href="/guide/docs/name/classname.html" class="mobile-nav-link">ClassName 命名</a><strong class="mobile-nav-title">JS 规范</strong><a href="/guide/docs/js/language.html" class="mobile-nav-link">语言规范</a><a href="/guide/docs/js/code.html" class="mobile-nav-link">代码规范</a><strong class="mobile-nav-title">浏览器兼容</strong><a href="/guide/docs/compatibility/html.html" class="mobile-nav-link">Html</a><a href="/guide/docs/compatibility/css.html" class="mobile-nav-link">CSS</a><a href="/guide/docs/compatibility/js.html" class="mobile-nav-link">JS</a><strong class="mobile-nav-title">解决方案</strong><a href="/guide/docs/project/all.html" class="mobile-nav-link">全部解决方案</a><a href="/guide/docs/project/vis.html" class="mobile-nav-link">可视化解决方案</a><a href="/guide/docs/project/pc.html" class="mobile-nav-link">pc 端解决方案</a><a href="/guide/docs/project/mobile.html" class="mobile-nav-link">移动端解决方案</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap" class="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label" class="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/common.html" class="mobile-lang-select">
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+        <option value="en">English</option>
+      
+    </select>
+  </div>
+</nav>
+
+  <!-- Scripts -->
+<!-- build:js js/dist.main.js -->
+<script src="/guide/js/jquery.js"></script>
+<script src="/guide/js/hammer.js"></script>
+<script src="/guide/assets/bootstrap/js/bootstrap.js"></script>
+<script src="/guide/js/lang_select.js"></script>
+<script src="/guide/js/toc.js"></script>
+<script src="/guide/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+<!-- Swiftype -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','');
+</script>
+
+</div>
+</body>
+</html>
