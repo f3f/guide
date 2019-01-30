@@ -13,7 +13,8 @@ script:
   - npm run build
 
 after_script:
-  - cd dist/
+  - ls -l
+  - cd public/
   - git init
   - git config user.name "${U_NAME}"
   - git config user.email "${U_EMAIL}"
