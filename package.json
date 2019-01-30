@@ -8,7 +8,7 @@
   },
   "scripts": {
     "serve": "hexo s --watch",
-    "build": "hexo generate && gulp"
+    "build": "hexo generate"
   },
   "dependencies": {
     "cheerio": "^0.22.0",
