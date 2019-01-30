@@ -5,7 +5,7 @@ author: F3F.github.io
 language: zh-cn
 timezone: UTC
 url: https://F3F.github.io/guide
-root: /
+root: /guide_hexo/
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
