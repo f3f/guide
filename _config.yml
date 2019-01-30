@@ -5,7 +5,7 @@ author: F3F.github.io
 language: zh-cn
 timezone: UTC
 url: https://F3F.github.io/guide
-root: ./
+root: /guide
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
@@ -23,7 +23,7 @@ deploy:
   branch: master
 
 # dicls
-github: F3F/guide_hexo
+github: F3F/guide
 gh:
   user: F3F
-  repo: guide_hexo
+  repo: guide
