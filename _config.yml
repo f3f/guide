@@ -4,8 +4,8 @@ description: "Best Coding Guidelines For Front-End Developer."
 author: F3F.github.io
 language: zh-cn
 timezone: UTC
-url: https://f3f.github.io/guide/
-root: /
+url: https://f3f.github.io
+root: /guide/
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code
