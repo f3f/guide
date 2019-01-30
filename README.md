@@ -34,6 +34,9 @@ $ npm run serve
 url: https://f3f.github.io
 root: /guide/
 ```
+## Powered By
+
+本文档由[HEXO](https://hexo.io/zh-cn/)驱动
 
 ## License
 
