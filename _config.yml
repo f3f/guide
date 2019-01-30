@@ -20,7 +20,7 @@ theme: navy
 deploy:
   type: git
   repo: git@github.com:f3f/guide.git
-  branch: master
+  branch: gh-pages
 
 # dicls
 github: F3F/guide
