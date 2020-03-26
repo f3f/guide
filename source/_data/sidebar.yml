@@ -1,4 +1,7 @@
 docs:
+  resources:
+    resources_all: resources/all.html
+    resources_other: resources/other.html
   getting_started:
     overview: index.html
     common: common.html

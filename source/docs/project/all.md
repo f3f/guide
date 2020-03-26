@@ -1,46 +1,44 @@
 
 title: 前端&可视化解决方案
 ---
-## [VUE  大屏可视化开发环境](https://github.com/f3f/visual-development-largeScreen)
+## [可视化开发平台](https://zhu18.github.io/anov-doc/)
 
 适用场景：**前后端分离,大屏可视化开发环境,建议1024*768以上任意尺寸**
-特点：功能自动化, 数据源多元性, 可配置, 降低学习及开发成本。
-不足：需要有一定js基础，对vue有一定了解
+**特点：**采用三分平台配置、七分定制开发方案（即以轻量级可视化平台配置完成30%工作，定制开发完成剩余70%工作）的一个可视化平台。
 
-## [VUE 移动端自动化集成开发环境](https://github.com/F3F/spa-development)
+## [移动端集成开发环境](https://github.com/wuyax/touch-vision)
 
-适用场景：**前后端分离，用于以webApp为主的移动端开发环境**
-特点：使用可配置自动化工具, 支持commonjs 图片压缩,资源合并等。
-不足：需要有一定js基础，对vue有一定了解
+适用场景：**前后端分离，用于移动端开发环境**
+**特点：**开箱即用的移动端开发模版。除了解决了最核心的适配问题以外，还集成了其他的移动端常见问题的解决方案、安全通信以及常用的组件等功能。
 
-## [VUE  PC端自动化集成开发环境](https://github.com/F3F/spa-development-pc)
+## [VUE  PC端自动化集成开发环境](https://github.com/F3F/spa-development-pc)（不推荐）
 
 适用场景：**前后端分离，用于实现pc单页应用开发环境**
 特点：使用可配置自动化工具, 支持commonjs 图片压缩,资源合并等。
 不足：需要有一定js基础，对vue有一定了解
 
 
-## [自动化集成开发环境](https://github.com/F3F/automation-development)
+## [自动化集成开发环境](https://github.com/F3F/automation-development)（不推荐）
 
 适用场景：**大量开发页面,前后端分离**。
 特点：功能自动化,可配置, 支持commonjs 图片压缩,资源合并等。
 不足：有一定学习曲线，不能快速上手。
 
 
-## [兼容IE8自动化集成开发环境](https://github.com/F3F/automation-development-ie8.git)
+## [兼容IE8自动化集成开发环境](https://github.com/F3F/automation-development-ie8.git)（不推荐）
 
 适用场景：**大量开发页面,前后端分离**。
 特点：功能自动化,可配置, 提供IE8兼容解决方案，提供常用模板。
 不足：不能解决所有IE8及以下问题，需要心细。
 
 
-## [快速开发环境](https://github.com/F3F/rapid-development-PC)
+## [快速开发环境](https://github.com/F3F/rapid-development-PC)（不推荐）
 
 适用场景：**少量页面项目,展示demo,活动页面。**
 特点：快速上手,开发迅速,可直接交付给后端开发。
 不足：没有代码压缩等优化,不支持commonjs等模块化引入
 
-## [移动端快速开发环境](https://github.com/F3F/rapid-development-Mobile)
+## [移动端快速开发环境](https://github.com/F3F/rapid-development-Mobile)（不推荐）
 
 适用场景：**前后端分离，配合原生进行页面嵌入**
 特点：快速上手,迅速实现一些原生不容易完成的工作。

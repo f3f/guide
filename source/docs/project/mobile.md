@@ -1,13 +1,13 @@
 title: 移动端解决方案
 ---
 
-## [VUE自动化集成开发环境](https://github.com/F3F/spa-development)
+## [移动端集成开发环境](https://github.com/wuyax/touch-vision)
 
-适用场景：**前后端分离，用于以webApp为主的移动端应用开发**
-特点：使用可配置自动化工具, 支持commonjs 图片压缩,资源合并等。
+适用场景：**前后端分离，用于移动端开发环境**
+特点：开箱即用的移动端开发模版。除了解决了最核心的适配问题以外，还集成了其他的移动端常见问题的解决方案、安全通信以及常用的组件等功能。
 不足：需要有一定js基础，对vue有一定了解
 
-## [移动端快速开发环境](https://github.com/F3F/rapid-development-Mobile)
+## [移动端快速开发环境](https://github.com/F3F/rapid-development-Mobile)（不推荐）
 
 适用场景：**前后端分离，配合原生进行页面嵌入**
 特点：快速上手,迅速实现一些原生不容易完成的工作。

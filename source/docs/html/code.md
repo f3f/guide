@@ -30,7 +30,7 @@ Lang属性的取值应该遵循互联网工程任务组--IETF（The Internet Eng
 IE 支持通过特定的 标签来确定绘制当前页面所应该采用的 IE 版本。除非有强烈的特殊需求，否则最好是设置为edge mode，从而通知 IE 采用其所支持的最新的模式。
 
 ```html
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
 
 ## 元素及标签闭合

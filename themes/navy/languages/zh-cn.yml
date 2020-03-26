@@ -19,6 +19,9 @@ page:
 
 sidebar:
   docs:
+    resources: 资源
+    resources_all: 开发资源
+    resources_other: 其他资源
     getting_started: 开始使用
     overview: 概述
     common: 通用
